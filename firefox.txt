@@ -1,52 +1,61 @@
-��i��:
-	�u���E�UOS
-	
-	�����JS�EHTML�ŖڐV�����͂Ȃ��̂ŁA
-	�u���E�UOS���������Ă�Z�p�̕��ɒ��ڂ�����B
+市場、先進性:
+	ブラウザOS
 
-��s���Ă����ЁF
-	���ɂȂ�
-	���݂̓n�[�h��������Ђ̂ق������ڗ��тĂ���B
-	�A�v���݂͂�ȉ����тȂ̂ŁA
-	�n�b�J�\���Ŏ������Ă����Έ����s����\������B
+	メインターゲットは新興国（安いので）
+	端末は発売されたばかり
+	マーケットはあるが公開されているアプリ少ない
+	https://marketplace.firefox.com/
 
-�e�a��:
-	SIer�Ȃ�\��
-	�X�}�f�o�AWeb�̃m�E�n�E����������B
-	�l�b�g���[�N����͐�������m�E�n�E���Ȃ������B
-	
-������:
-	�Z�p���x���ɂ���ē�Փx���_��ɂł���B
-	�����FWeb�N���C�A���g�A�v��
-	�����FWeb�N��/�T�[�o�A�v��
-	�㋉�FOS�̉���
-	�Ȃ�	
+	日本市場で拡大するかは不明
+	今まで端末価格、開発コストがネックだった企業が
+	安い端末、既存Webアプリの流用が可能なため導入に踏み切る可能性大
 
-��Փx:
-	��L�̂Ƃ���
-	�J�����Ȃ���Ԃ���HelloWorld���܂łP�O�����炢�B
-	
-�s��:
-	���܂Œ[�����i�A�J���R�X�g���l�b�N��������Ƃ�
-	�����[���A����Web�A�v���̗��p���\�Ȃ��ߓ����ɓ��ݐ؂�\����
+	言語はJS・HTMLで目新しさはないので、
+	ブラウザOSを実現してる技術の方に注目させる。
 
-�R�X�g:
-	�E���@
-	���{�ł�FireFoxOs���ڂ̒[���͖������i���N�����H�j
-	�Z�J�C�����Ƃ��łP���^�P�䂭�炢�ŕς���B�g�c�Ƃ���H
-	�����[���ɖ������FireFoxOS������邱�Ƃ��撣��΂ł������iroot�����K�v�j�B
-		���Z���T�n�E�~�h���E�F�A�������Ȃ������B
-	
-	�E�J����
-	FireFox�ɃG�~�����[�^��AddOn�𖳗��œ������B
-	IDE��Eclipse�Ƃ��A����Ă�l��Emacs�Ƃ��B
-	��{JS��HTML�Ȃ̂�VisualStudio�ł��s����Ǝv���B
-	�����ƃG�f�B�^���n�b�J�\����邱�Ƃɂ͏[�����Ă�͂��B
+先行している会社：
+	特になし
+	現在はハードを扱う会社のほうが注目浴びている。
+	アプリはみんな横並びなので、
+	ハッカソンで実例作っておけば一歩先行ける可能性あり。
 
-����:
-	�E���@���Ȃ񂩂���������
-	�E���ʂȊJ��������Ȃ��̂Ŏ�y�Ɏn�߂���
-	�E�T�[�o�����\�z����΂���Ȃ�̒m�����K�v
-	�EAndroid�ƈႢ�AOS�̉��ς���r�I�ȒP�i�ȃn�Y�j
-	�EJS�AHTML�����C���̋Z�p�ƂȂ�̂�������ƃl�b�N
+親和性:
+	SIerなら十分
+	スマデバ、Webのノウハウも生かせる。
+	ネットワーク部門は生かせるノウハウがないかも。
+
+実現性、難易度:
+	技術レベルによって難易度を柔軟にできる。
+	初級：Webクライアントアプリ
+	中級：Webクラ/サーバアプリ
+	上級：OSの改造
+	など
+
+	開発環境ない状態からHelloWorld作るまで１０分くらい。
+
+	開発言語はJSかHTML
 	
+	
+コスト:
+	・実機
+	日本ではFireFoxOs搭載の端末は未発売（来年発売？）
+	セカイモンとかで１万／１台くらいで変える。稟議とおる？
+	安い端末に無理やりFireFoxOS乗っけることも頑張ればできそう（root化が必要）。
+		→センサ系・ミドルウェアが動かないかも。
+
+	・開発環境（クライアント）
+	FireFoxにエミュレータのAddOnを無料で入れられる。
+	IDEはEclipseとか、慣れてる人はEmacsとか。
+	基本JSやHTMLなのでVisualStudioでも行けると思う。
+	きっとエディタもハッカソンやることには充実してるはず。
+
+	・開発環境（サーバ）
+	WebサーバならなんでもOK。
+	IISかXAMPP入れたら動く。
+
+興味が沸くか:
+	・実機がなんかかっこいい
+	・特別な開発環境いらないので手軽に始められる
+	・サーバ側も構築すればそれなりの知識が必要
+	・Androidと違い、OSの改変が比較的簡単（なハズ）
+	・JS、HTMLがメインの技術となるのがちょっとネック
